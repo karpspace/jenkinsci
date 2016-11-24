@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b313ad74-8d99-4a1c-bfec-e9d5fc233450" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jenkinsci.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479982111511</updated>
-      <workItem from="1479982112638" duration="1406000" />
+      <workItem from="1479982112638" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="Test 2">
       <created>1479982737178</created>
@@ -197,7 +198,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1406000" />
+    <option name="totallyTimeSpent" value="2005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
