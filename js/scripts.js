@@ -1,0 +1,1 @@
+function xx(){return"XXX"}var a=1;
