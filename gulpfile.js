@@ -1,6 +1,5 @@
 // grab our packages
 var gulp   = require('gulp'),
-    uglyfly = require('gulp-uglify'),
     clean = require('gulp-clean'),
     concat =  require('gulp-concat'),
     jshint = require('gulp-jshint'),
