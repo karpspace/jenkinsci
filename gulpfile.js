@@ -48,7 +48,6 @@ gulp.task('devJs',function(){
     return gulp.src('js/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('jshint-stylish'))
-        .pipe(jshint.reporter('fail'))
         .pipe(gulp.dest('js'))
         .pipe(concat('main.min.js', { newLine : '' } ))
         .pipe(gulp.dest('js'));
