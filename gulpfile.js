@@ -28,7 +28,6 @@ gulp.task('removeMainJs', function () {
 
 gulp.task('prodJs',function(){
     return gulp.src('js/*.js')
-        .pipe(jshint())
         .pipe(uglyfly())
         .pipe(gulp.dest('js'))
         .pipe(concat('main.min.js', { newLine : '' } ))
@@ -37,7 +36,6 @@ gulp.task('prodJs',function(){
 
 gulp.task('devJs',function(){
     return gulp.src('js/*.js')
-        .pipe(jshint())
         .pipe(gulp.dest('js'))
         .pipe(concat('main.min.js', { newLine : '' } ))
         .pipe(gulp.dest('js'));
