@@ -2,16 +2,14 @@
 var gulp   = require('gulp'),
     clean = require('gulp-clean'),
     concat =  require('gulp-concat'),
-    jshint = require('gulp-jshint'),
     run             = require('run-sequence'),
     livereload = require('gulp-livereload');
-
 
 // define the default task and add the watch task to it
 gulp.task('default');
 
 
-gulp.task('prod',['removeMainJs','']);
+gulp.task('prod',['removeMainJs']);
 
 gulp.task('dev', function () {
     run(['removeMainJs'], 'devJs');
